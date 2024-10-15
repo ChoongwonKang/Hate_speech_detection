@@ -25,8 +25,9 @@ The labels and features are split into training and testing sets to assess the g
 - The best-performing combinations for hate speech detection are identified through these experiments.
 
 
-### Core Libraries
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> == `3.11.5`
+### Core Libraries 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white"> <img src="https://img.shields.io/badge/NumPy-150458?style=for-the-badge&logo=NumPy&logoColor=white"> <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> 
+Python == `3.11.5`
 
 PyTorch == `2.4.0`
 
