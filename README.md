@@ -8,7 +8,7 @@ This framework introduces a method for detecting hate speech by fusing semantic 
 ## Steps to Use the Code:
 ### 1. Data Preprocessing
 We utilize four distinct hate speech datasets. To enhance the model's performance, preprocessing is performed on each dataset using the provided code.
-You can use the code in the [`preprocess`] folder(code/preprocess) for the respective datasets.
+You can use the code in the **[`preprocess`]**(code/preprocess) for the respective datasets.
 
 ### 2. Feature Extraction
 After preprocessing, the following steps are conducted:
@@ -20,5 +20,5 @@ After preprocessing, the following steps are conducted:
 The labels and features are split into training and testing sets to assess the generalization capabilities of the models. 
 - Evaluate linear classifiers using only the BERT [CLS] token.
 - Next, combine the input features with deep learning models such as CNN, DNN, and LSTM to measure classification performance.
-- The **pth** folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
+- The **['pth']**(./pth) folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
 - The best-performing combinations for hate speech detection are identified through these experiments.
