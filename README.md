@@ -16,5 +16,8 @@ After preprocessing, the following steps are conducted:
 - Combine the BERT [CLS] token with the sentiment scores from VADER and LIWC to create input features.
 
 ### 3. Model Training and Evaluation
-The labels and features are split into training and testing sets to assess the generalization capabilities of the models. We first evaluate linear classifiers using only the BERT [CLS] token.
-Next, we combine the input features with deep learning models such as CNN, DNN, and LSTM to measure classification performance. The best-performing combinations for hate speech detection are identified through these experiments.
+The labels and features are split into training and testing sets to assess the generalization capabilities of the models. 
+- We first evaluate linear classifiers using only the BERT [CLS] token.
+- Next, we combine the input features with deep learning models such as CNN, DNN, and LSTM to measure classification performance.
+- The pth folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
+- The best-performing combinations for hate speech detection are identified through these experiments.
