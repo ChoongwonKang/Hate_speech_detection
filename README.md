@@ -27,7 +27,11 @@ The labels and features are split into training and testing sets to assess the g
 
 ### Core Libraries
 Python == `3.11.5`
+
 PyTorch == `2.4.0`
+
 NumPy == `1.26.4`
+
 Pandas == `2.2.2`
+
 scikit-learn == `1.4.2`
