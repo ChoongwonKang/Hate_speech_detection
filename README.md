@@ -15,6 +15,7 @@ After preprocessing, the following steps are conducted:
 - Extract the [CLS] token from BERT for semantic representation.
 - Compute sentiment scores using VADER and LIWC-22.
 - Combine the BERT [CLS] token with the sentiment scores from VADER and LIWC to create input features.
+Codes are available by using the [`extract_combine_vectors.py`](code/extract_combine_vectors.py) file.
 
 ### 3. Model Training and Evaluation
 The labels and features are split into training and testing sets to assess the generalization capabilities of the models. 
