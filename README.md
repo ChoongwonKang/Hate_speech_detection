@@ -5,13 +5,6 @@ This repository contains the code and datasets used in the research paper "Hate 
 ## Overview
 This framework introduces a method for detecting hate speech by fusing semantic features from BERT with sentiment scores from VADER and LIWC-22.
 
-## Core Libraries
-- Python == `3.11.5`
-- PyTorch == `2.4.0`
-- scikit-learn == `1.4.2`
-- NumPy == `1.26.4`
-- Pandas == `2.2.2`
-
 ## Steps to Use the Code:
 ### 1. Data Preprocessing
 We utilize four distinct hate speech datasets. To enhance the model's performance, preprocessing is performed on each dataset using the provided code.
@@ -30,3 +23,11 @@ The labels and features are split into training and testing sets to assess the g
 - Next, combine the input features with deep learning models(CNN, DNN, and LSTM) to measure classification performance. You can find in [`modeling`](code/modeling).
 - The [`pth`](./pth) folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
 - The best-performing combinations for hate speech detection are identified through these experiments.
+
+
+### Core Libraries
+Python == `3.11.5`
+PyTorch == `2.4.0`
+NumPy == `1.26.4`
+Pandas == `2.2.2`
+scikit-learn == `1.4.2`
