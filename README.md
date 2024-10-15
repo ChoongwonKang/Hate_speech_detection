@@ -15,11 +15,11 @@ After preprocessing, the following steps are conducted:
 - Extract the [CLS] token from BERT for semantic representation.
 - Compute sentiment scores using VADER and LIWC-22.
 - Combine the BERT [CLS] token with the sentiment scores from VADER and LIWC to create input features.
-Codes are available by using the [`extract_combine_vectors.py`](code/extract_combine_vectors.py) file.
+Codes are available by using [`extract_combine_vectors.py`](code/extract_combine_vectors.py).
 
 ### 3. Model Training and Evaluation
-The labels and features are split into training and testing sets to assess the generalization capabilities of the models. 
+The labels and features are split into training and testing sets to assess the generalization capabilities of the models: 
 - Evaluate linear classifiers using only the BERT [CLS] token.
-- Next, combine the input features with deep learning models such as CNN, DNN, and LSTM to measure classification performance.
+- Next, combine the input features with deep learning models(CNN, DNN, and LSTM) to measure classification performance. You can find in [`modeling`](code/modeling).
 - The [`pth`](./pth) folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
 - The best-performing combinations for hate speech detection are identified through these experiments.
