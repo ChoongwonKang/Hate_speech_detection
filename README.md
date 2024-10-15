@@ -26,7 +26,7 @@ The labels and features are split into training and testing sets to assess the g
 
 
 ### Core Libraries
-python == `3.11.5`
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> == `3.11.5`
 
 PyTorch == `2.4.0`
 
