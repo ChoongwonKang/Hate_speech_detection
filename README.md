@@ -20,5 +20,5 @@ After preprocessing, the following steps are conducted:
 The labels and features are split into training and testing sets to assess the generalization capabilities of the models. 
 - Evaluate linear classifiers using only the BERT [CLS] token.
 - Next, combine the input features with deep learning models such as CNN, DNN, and LSTM to measure classification performance.
-- The ['pth'](./pth) folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
+- The [`pth`](./pth) folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance.
 - The best-performing combinations for hate speech detection are identified through these experiments.
