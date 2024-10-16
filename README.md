@@ -7,7 +7,7 @@ This repository contains the code and datasets used in the research paper "Hate 
 
 **Python** == `3.11.5`
 
-**PyTorch** == `2.4.0`
+**PyTorch** == `2.1.2`
 
 **NumPy** == `1.26.4`
 
