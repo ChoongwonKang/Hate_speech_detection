@@ -16,7 +16,7 @@ This repository contains the code and datasets used in the research paper "Hate 
 **scikit-learn** == `1.4.2`
 
 ## Overview
-This framework introduces a method for detecting hate speech by fusing semantic features from BERT with sentiment scores from VADER and LIWC-22.
+This framework introduces a method for detecting hate speech by fusing semantic features from BERT with sentiment scores from VADER and LIWC-22, and demonstrates the combination with the best performance.
 
 ## Steps to Use the Code
 ### 1. Data Preprocessing
