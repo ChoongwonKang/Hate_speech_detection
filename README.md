@@ -20,8 +20,11 @@ This framework introduces a method for detecting hate speech by fusing semantic 
 
 ## Steps to Use the Code
 ### 1. Data Preprocessing
-We utilize four distinct hate speech datasets. To enhance the model's performance, preprocessing is performed on each dataset using the provided code.
-You can use the code in the [`preprocess`](code/preprocess) for the respective datasets.
+We utilize four distinct hate speech datasets
+- To enhance the model's performance, preprocessing is performed on each dataset using the provided code.
+- Raw data is stored in each subfolder of the ['data'](./data) with the format 'dataname_raw'.
+- Preprocessed data can be found in each subfolder of the  ['data'](./data) with the format 'dataname_input'. 
+- You can use the code in the [`preprocess`](code/preprocess) for the respective datasets.
 
 ### 2. Feature Extraction
 After preprocessing, the following steps are conducted:
