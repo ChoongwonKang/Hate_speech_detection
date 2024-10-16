@@ -44,7 +44,7 @@ Codes are available in [`modeling`](code/modeling).
 
 The [`pth`](./pth) folder contains the trained model weights for each dataset. By applying these weights directly to the test code of the corresponding deep learning models, you can immediately evaluate the model's performance without retraining models.
 
-### Original Dataset
+### Data Source
 CMSB: https://search.gesis.org/research_data/SDN-10.7802-2251
 
 SM: https://github.com/Vicomtech/hate-speech-dataset 
