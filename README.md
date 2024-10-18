@@ -29,7 +29,7 @@ Use the code in the [`preprocess`](code/preprocess) for the respective datasets.
 ### 2. Feature Extraction
 After preprocessing, the following steps are conducted on each input data:
 - Extract the [CLS] token from BERT for semantic representation.
-- Compute sentiment scores using VADER and LIWC-22. (LIWC scored data can be found in each subfolder of the  [`data`](./data) with the format 'dataname_liwc'.
+- Compute sentiment scores using VADER and LIWC-22. LIWC scored data can be found in each subfolder of the  [`data`](./data) with the format 'dataname_liwc'.
 - Combine the BERT [CLS] token with the sentiment scores from VADER and LIWC to create input features.
 - Through the process, the input features can be saved in the form of .npy files.
 Codes are available by using [`extract_combine_vectors.py`](code/extract_combine_vectors.py).
