@@ -1,6 +1,6 @@
 # Hate_speech_detection
 
-This repository contains the code and datasets used in the research paper "Hate Speech Detection through Deep Learning: Dual Approach with Semantic-Sentiment Fusion." The framework integrates semantic analysis using Transformer-based models (BERT) with sentiment analysis tools (VADER and LIWC-22) to develop an effective hate speech detection system.
+This repository contains the code and datasets used in the research paper "Semantic-Sentiment Fusion with Deep Learning: A Novel Framework for Hate Speech Detection." The framework integrates semantic analysis using Transformer-based models (BERT) with sentiment analysis tools (VADER and LIWC-22) to develop an effective hate speech detection system.
 
 ### Core Libraries 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white"> <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> 
