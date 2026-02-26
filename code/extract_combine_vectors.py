@@ -53,7 +53,7 @@ def combine_with_liwc_vectors(liwc_path, cls_vector_path, save_path):
     dff = df.index[0]
     df = df.drop(dff)
     df = df.to_numpy()
-    final = np.concatenate((df, df2), axis=1)
+    final = np.concatenate((df2, df), axis=1)
     np.save(save_path, final)
     return final
 
